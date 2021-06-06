@@ -1,0 +1,84 @@
+html {
+  cursor: url(img/color.png), auto;
+}
+
+body {
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.mosquito1 {
+  width: 60px;
+  height: 60px;
+}
+
+.mosquito2 {
+  width: 80px;
+  height: 80px;
+}
+
+.mosquito3 {
+  width: 100px;
+  height: 100px;
+}
+
+.sideA {
+  transform: scaleX(1);
+}
+
+.sideB {
+  transform: scaleX(-1);
+}
+
+.painel {
+  position: absolute;
+  width: 220px;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  border-top: solid 1px #fff;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.vidas {
+  float: left;
+}
+
+.cronometro {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container {
+  border: none;
+  width: 600px;
+  height: 620px;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgba(53, 53, 53, 0.3);
+}
+
+
+button.btn {
+  background: rgb(94, 0, 0);
+  padding: 20px;
+  border-radius: 20px 5px 20px 5px;
+  border: none;
+  font-weight: 700;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+/*
+.container .row .col img {
+     width: 40%;
+     position: absolute;
+     text-align: center;
+     left: 27%;
+     top: 10vh;
+}
+*/

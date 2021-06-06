@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Game</title>     
+     <link rel="stylesheet" href="style.css">
+</head>
+<body onresize="tamanhoJogo()">
+
+     <div class="painel">
+          <div class="vidas">
+               <img id="v1" src="../arquivo_da_aula/imagens/coracao_cheio.png" alt="">
+               <img id="v2" src="../arquivo_da_aula/imagens/coracao_cheio.png" alt="">
+               <img id="v3" src="../arquivo_da_aula/imagens/coracao_cheio.png" alt="">
+          </div>
+          <div class="cronometro">TEMPO RESTANTE: <span id="cronometro"></span></div>
+     </div>
+
+     <!-- SCRIPTS -->
+     <script src="main.js"></script>
+     <script>
+          document.getElementById('cronometro').innerHTML = tempo
+          var criaItem = setInterval(function(){
+             randomPosition();  
+          }, createTime)          
+     </script>
+</body>
+</html>
